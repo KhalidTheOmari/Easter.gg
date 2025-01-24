@@ -1,0 +1,110 @@
+/* External CSS File */
+
+body {
+    background-image: url(Bg.jpg); /* Adjust the path as per your directory structure */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Ubuntu';
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); ;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 2.5vh;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #1aeeef;
+    color: #050e2d;
+    box-shadow: 0 0 15px #1aeeef, 0 0 20px #1aeeef;
+}
+  html {
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 380px;
+    background: rgba(0, 0, 0, 0.2); /* Optional: Adds transparency */
+    color: white;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    color: #1aeeef;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #1aeeef;
+    color: #050e2d;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+form button:hover {
+    background-color: #0d84ab;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #1aeeef;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+    color: #0d84ab;
+}
+
+.error {
+    color: red;
+    margin-bottom: 15px;
+}

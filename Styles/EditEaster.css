@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(90deg, rgba(18, 18, 122, 1) 0%, rgba(2, 0, 36, 1) 0%);
+    color: white;
+}
+
+/* Header */
+.navbar {
+    background-color: #050e2d;
+    border-bottom: 2px solid #1aeeef;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 2.5vh;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #1aeeef;
+    color: #050e2d;
+    box-shadow: 0 0 15px #1aeeef, 0 0 20px #1aeeef;
+}
+/* Main Content */
+.form-container {
+    padding: 120px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+    border: none;
+}
+
+.header1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.edit-form input,
+.edit-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #050e2d;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.edit-form input:focus,
+.edit-form textarea:focus {
+    outline: none;
+    border-color: #1aeeef;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.save-btn,
+.cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.save-btn {
+    background: #1aeeef;
+    color: #050e2d;
+}
+
+.save-btn:hover {
+    background: #14c4cc;
+}
+
+.cancel-btn {
+    background: #ef1a1a;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background: #c41414;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: linear-gradient(90deg, rgba(18, 18, 122, 1) 0%, rgba(2, 0, 36, 1) 0%);
+    border-top: 1px solid #ddd;
+    font-family: Ubuntu;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.3);
+}
+
+.footer-content {
+    max-width: 100%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.Legal {
+    color: hsla(0, 0%, 100%, 0.3);
+    font-weight: bolder;
+    margin: 0;
+    flex: 2;
+}
+
+.footer-right {
+    color: hsla(0, 0%, 100%, 0.3);
+    font-size: 18px;
+    text-align: right;
+}
+
+.footer-row i {
+    color: hsla(0, 0%, 100%, 0.3);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-row .footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Add spacing between icons */
+}
+
+.footer-row i:hover {
+    color: #1aeeef;
+    transform: scale(1.2);
+}

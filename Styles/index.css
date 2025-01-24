@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(18, 18, 122, 1) 0%, rgba(2, 0, 36, 1) 0%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #050e2d;
+    border-radius: 6px;
+}
+
+.navbar {
+    background-color: #050e2d;
+    border-bottom: 2px solid #1aeeef;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 2.5vh;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #1aeeef;
+    color: #050e2d;
+    box-shadow: 0 0 15px #1aeeef, 0 0 20px #1aeeef;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg .content {
+    width: 50%;
+    height: 100%;
+
+}
+
+.banner .bg .content .header1 {
+    font-family: Ubuntu;
+    font-size: 60px;
+    width: 700px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    word-spacing: 2px;
+    color: white;
+}
+
+.banner .bg .content .header2 {
+    font-family: Ubuntu;
+    margin-top: 0px;
+    font-size: 60px;
+    width: 600px;
+    font-weight: bold;
+    margin-left: 65px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.banner .bg .content .header3 {
+    font-family: Ubuntu;
+    margin-top: 0px;
+    font-size: 25px;
+    width: 500px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    margin-left: 270px;
+    margin-bottom: 5px;
+}
+
+.banner .bg .content .header4 {
+    font-family: Ubuntu;
+    margin-top: 0px;
+    font-size: 25px;
+    width: 500px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: white;
+    font-style: italic;
+}
+
+.banner .bg .content .Addhome {
+    background-color: white;
+    font-family: Ubuntu;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: larger;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 280px;
+    transition: opacity 0.8s;
+    box-shadow: 3px 3px 10px white;
+    margin-top: 10px;
+}
+
+
+.banner .bg .content .Addhome:hover {
+    opacity: 0.7;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.banner .bg .content .Addhome:active {
+    opacity: 0.4;
+}
+
+.banner .bg .hallow {
+    width: 650px;
+    margin-left: 100px;
+}
+
+
+
+#fun-facts {
+    background: url(EasterBG.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #f8f;
+    padding: 50px 20px;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fun-facts h1 {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    color: #1aeeef;
+    margin-bottom: 30px;
+}
+
+.facts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fact {
+    background-color: rgba(5, 14, 45, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.fact:hover {
+    transform: scale(1.05);
+    background-color: rgba(52, 52, 83, 0.8);
+}
+
+.fact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.fact strong {
+    color: #1aeeef;
+}
+
+
+#about-us {
+    background-image: linear-gradient(90deg, rgba(18, 18, 122, 1) 0%, rgba(2, 0, 36, 1) 0%);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: Ubuntu;
+}
+
+#about-us .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1aeeef;
+    text-transform: uppercase;
+}
+
+#about-us p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+#about-us p strong {
+    color: #1aeeef;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: linear-gradient(90deg, rgba(18, 18, 122, 1) 0%, rgba(2, 0, 36, 1) 0%);
+    border-top: 1px solid #ddd;
+    font-family: Ubuntu;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.3);
+}
+
+.footer-content {
+    max-width: 100%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.Legal {
+    color: hsla(0, 0%, 100%, 0.3);
+    font-weight: bolder;
+    margin: 0;
+    flex: 2;
+}
+
+.footer-right {
+    color: hsla(0, 0%, 100%, 0.3);
+    font-size: 18px;
+    text-align: right;
+}
+
+.footer-row i {
+    color: hsla(0, 0%, 100%, 0.3);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-row .footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Add spacing between icons */
+}
+
+.footer-row i:hover {
+    color: #1aeeef;
+    transform: scale(1.2);
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .banner .bg .hallow {
+        display: none;
+    }
+
+    .banner .bg .content {
+        width: 90%;
+        text-align: center;
+    }
+
+    .banner .bg .content .header1,
+    .banner .bg .content .header2 {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+
+    .banner .bg .content .header3,
+    .banner .bg .content .header4 {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .banner .bg .content .Addhome {
+        margin-left: 0;
+    }
+}
+
+.about-us {
+    padding: 30px 10px;
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+}
+
+.about-us p {
+    font-size: 1rem;
+}
+
+.footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.footer-right {
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .about-us h2 {
+        font-size: 2rem;
+    }
+
+    .about-us p {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner .bg .hallow {
+        display: none;
+    }
+
+    .banner .bg {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .banner .bg .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner .bg .content .header1,
+    .banner .bg .content .header2,
+    .banner .bg .content .header3,
+    .banner .bg .content .header4 {
+        font-size: 5vw;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .banner .bg .content .Addhome {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    ul li {
+        margin: 5px 0;
+    }
+
+    .SignUp a {
+        margin-left: 0;
+    }
+
+    .about-us {
+        padding: 30px 10px;
+    }
+
+    .about-us h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-us p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner .bg .content .header1,
+    .banner .bg .content .header2 {
+        font-size: 4vw;
+    }
+
+    .banner .bg .content .Addhome {
+        padding: 10px 15px;
+        font-size: medium;
+    }
+
+    .about-us h2 {
+        font-size: 2rem;
+    }
+
+    .about-us p {
+        font-size: 0.9rem;
+    }
+}

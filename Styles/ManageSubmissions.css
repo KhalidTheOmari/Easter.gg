@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(90deg, rgba(18, 18, 122, 1) 0%, rgba(2, 0, 36, 1) 0%);
+    color: white;
+}
+
+.navbar {
+    background-color: #050e2d;
+    border-bottom: 2px solid #1aeeef;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 2.5vh;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #1aeeef;
+    color: #050e2d;
+    box-shadow: 0 0 15px #1aeeef, 0 0 20px #1aeeef;
+}
+
+.manage-submissions {
+    padding: 100px 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    color: white;
+}
+
+.add-new {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.add-button {
+    background: #1aeeef;
+    color: #050e2d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.add-button:hover {
+    background: #14c4cc;
+}
+
+.submission-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+}
+
+.submission-table thead {
+    background: #1a1a3b;
+}
+
+.submission-table th,
+.submission-table td {
+    padding: 15px;
+    border: 1px solid #333;
+}
+
+.submission-table th {
+    color: #1aeeef;
+}
+
+.submission-table tbody tr:nth-child(even) {
+    background: #050e2d;
+}
+
+.submission-table tbody tr:hover {
+    background: #1a1a3b;
+}
+
+.action-btn {
+    padding: 7px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.edit-btn {
+    background: #1aeeef;
+    color: #050e2d;
+}
+
+.edit-btn:hover {
+    background: #14c4cc;
+}
+
+.delete-btn {
+    background: #ef1a1a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #c41414;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: linear-gradient(90deg, rgba(18, 18, 122, 1) 0%, rgba(2, 0, 36, 1) 0%);
+    border-top: 1px solid #ddd;
+    font-family: Ubuntu;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.3);
+}
+
+.footer-content {
+    max-width: 100%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.Legal {
+    color: hsla(0, 0%, 100%, 0.3);
+    font-weight: bolder;
+    margin: 0;
+    flex: 2;
+}
+
+.footer-right {
+    color: hsla(0, 0%, 100%, 0.3);
+    font-size: 18px;
+    text-align: right;
+}
+
+.footer-row i {
+    color: hsla(0, 0%, 100%, 0.3);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-row .footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Add spacing between icons */
+}
+
+.footer-row i:hover {
+    color: #1aeeef;
+    transform: scale(1.2);
+}
+
